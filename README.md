@@ -48,5 +48,12 @@ You will be allowed full use of the search engine of your choice.
 
 Good luck!
 
+HOW I CAME UP WITH MY SOLUTION
 
+- Imported pandas and sys for data processing and output purposes
+- Used pandas 'read_csv' function to grab the csv file holding the required data and store it in a variable as a reference 
+- Dropped the Date / Time column because the field is not relevant and removing irrelvant fields/data will save memory
+- Declared variables for the maximums, minimums, and means for each Hostname
+- Declared variables for the maximums, minimums, and means for all of the results 
+- Used the sys library to output the maximums, minimums, and means dataframes for each host name along with each dataframe's maximums, minimums, and means
 
