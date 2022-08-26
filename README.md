@@ -55,5 +55,5 @@ HOW I CAME UP WITH MY SOLUTION
 - Dropped the Date / Time column because the field is not relevant and removing irrelvant fields/data will save memory
 - Declared variables for the maximums, minimums, and means for each Hostname
 - Declared variables for the maximums, minimums, and means for all of the results 
-- Used the sys library to output the maximums, minimums, and means dataframes for each host name along with each dataframe's maximums, minimums, and means
+- Used the sys library to output the maximums, minimums, and means pandas series for each host name along with each panda series' maximums, minimums, and means
 
